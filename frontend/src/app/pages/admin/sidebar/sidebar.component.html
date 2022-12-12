@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-action-list>
+      <div mat-subheader>Menu</div>
+      <button routerLink = "/admin" mat-list-item>
+        <mat-icon mat-list-icon>home</mat-icon> Inicio
+      </button>
+      <button mat-list-item routerLink = "/admin/profile">
+        <mat-icon mat-list-icon>account_circle</mat-icon>Perfil
+      </button>
+      <button mat-list-item routerLink = "/admin/resultados">
+        <mat-icon mat-list-icon>list</mat-icon>Resultados
+      </button>
+      <button mat-list-item routerLink = "/admin/reportes">
+        <mat-icon mat-list-icon>quiz</mat-icon>Obtener Reportes
+      </button>
+      <button mat-list-item (click) = "logout()">
+        <mat-icon mat-list-icon>logout</mat-icon>Salir
+      </button>
+    </mat-action-list>
+  </mat-card>

@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-list>
+      <div mat-subheader>
+        Todas los analisis realizados
+      </div>
+      <mat-list-item *ngFor = "let c of resultados">
+        <mat-icon mat-list-icon>category</mat-icon>
+        <div mat-line>Identificador: {{ c.id }}</div>
+        <div mat-line>Porcentaje de azucar: {{ c.azucar }} %</div>
+        <div mat-line>Porcentaje de grasa: {{ c.grasa }}%</div>
+        <div mat-line>Porcentaje de oxígeno: {{ c.oxigeno }} %</div>
+        <div mat-line>Riesgo de contraer una enfermedad: {{ c.riesgo }}</div>
+        <div mat-line>Identificador de Usuario {{ c.usuarioId }}</div>
+        <mat-divider></mat-divider>
+      </mat-list-item>
+    </mat-list>
+  
+  </mat-card>
