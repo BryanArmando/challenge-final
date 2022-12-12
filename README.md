@@ -44,7 +44,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/tubase
 spring.datasource.url=root
 spring.datasource.password=1234
 ```
-8. Ejecutar desde sus respectivos archivos principales y su documentación en swagger las podrá visualizar en las siguentes rutas por defecto para *exámenes** y **reportes** respectivamente:
+8. Ejecutar desde sus respectivos archivos principales y su documentación en swagger las podrá visualizar en las siguentes rutas por defecto para **exámenes** y **reportes** respectivamente:
 ```
 http://localhost:8081/doc/swagger-ui/index.html#/
 http://localhost:8082/doc/swagger-ui/index.html#/
