@@ -6,7 +6,11 @@
 
 > ######  Perfil: [@BryanArmando](https://github.com/BryanArmando)
 
-## Ejecución de los endpoints FARMECC (local):
+## Arquitectura del proyecto:
+
+![imagen](https://github.com/BryanArmando/challenge-final/blob/master/arquitectura.jpg)
+
+## Ejecución de proyectos (local):
 
 1. Clonar el proyecto
 ```
