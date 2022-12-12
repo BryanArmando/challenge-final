@@ -38,13 +38,13 @@ http://localhost:8080
 ```
 6. Realizar el mismo procedimiento con las carpetas **dataclient** y **gen**.
 
-7. Se recomienda en el archivo properties tener las configuraciones ya preestablecidas como vienen al descargar el proyecto, como el ddl y los puertos y que ambas apunten a la misma base de datosse de datos local:
+7. Se recomienda en el archivo properties tener las configuraciones ya preestablecidas como vienen al descargar el proyecto, como el ddl y los puertos y que ambas apunten a la misma base de datos:
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/tubase
 spring.datasource.url=root
 spring.datasource.password=1234
 ```
-8. Ejecutar desde sus respectivos archivos principales y su documentación en swagger las podrá visualizar en las siguentes rutas por defecto:
+8. Ejecutar desde sus respectivos archivos principales y su documentación en swagger las podrá visualizar en las siguentes rutas por defecto para *exámenes** y **reportes** respectivamente:
 ```
 http://localhost:8081/doc/swagger-ui/index.html#/
 http://localhost:8082/doc/swagger-ui/index.html#/
